@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Sistema Solar</title>
+    <style>
+        body{
+            background-image: none;
+            background-color: #000;
+        }
+        
+        img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    </style>
+    
+    <script src="../js/js.js"></script>
+
+</head>
+<body>
+    <h1>Mapa do Sistema Solar</h1>
+    <div class="solar">
+        <img src="../imgs/sistemaSolar.jpg" width="auto" height="auto" alt="Planetas" usemap="#planetmap">
+    </div>
+    <map name="#planetmap">
+        <area shape="circle" coords="20,268,115" href="sol.html" alt="Sol">
+        <area shape="circle" coords="193,280,16" href="mercurio.html" alt="Mercúrio">
+        <area shape="circle" coords="265,283,38" href="venus.html" alt="Vênus">
+        <area shape="circle" coords="360,284,45" href="terra.html" alt="Terra">
+        <area shape="circle" coords="460,287,31" href="marte.html" alt="Marte">
+        <area shape="circle" coords="590,284,72" href="jupiter.html" alt="Júpiter">
+        <area shape="circle" coords="775,285,58" href="saturno.html" alt="Saturno">
+        <area shape="circle" coords="948,293,39" href="urano.html" alt="Urano">
+        <area shape="circle" coords="1125,291,38" href="netuno.html" alt="Netuno">
+    </map>
+    <footer>
+        Eric Santos nº 13 // INI1CT
+        <br>
+        Todos os direitos reservados &copy;
+    </footer>
+</body>
+</html>

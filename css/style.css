@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+    background-image: url(../imgs/ceu.jpg);
+    overflow: hidden;
+}
+
+a:link{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+a:hover{
+    transition-duration: 1ms;
+    color: #000;
+}
+
+h1{
+    margin: 5px 0 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+p{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 17px;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.solar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mercurio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.venus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jupiter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saturno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netuno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.return{
+    margin: -20px 555px 0 555px;
+    text-align: center;
+    bottom: 0;
+}
+
+.return:hover{
+    transition-duration: 1s;
+    background-color: #cacaca;
+    border-radius: 50px;
+}
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: #f2f2f2; 
+    margin: 10px 0 0 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #000000;
+}
